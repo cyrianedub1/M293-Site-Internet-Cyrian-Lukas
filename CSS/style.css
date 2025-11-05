@@ -7,6 +7,12 @@ strong{
     color: crimson;
 }
 
+body{
+    background-image: url(/IMG_VID/Robloxhq.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
 em{
     color: rgb(16, 167, 167)
 }
@@ -83,6 +89,7 @@ a:hover{
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif ;
+    color: white;
 }
 
 .h1-subtitle{
@@ -131,13 +138,5 @@ a:hover{
 
 /*Début footer*/
 footer{
-color: cyan;
-  text-align: center;
-  padding: 2rem 1rem;
-  border-top: 2px solid #FF4136;
-  font-size: 1rem;
-  font-family: 'Segoe UI', sans-serif;
-  margin-top: 8rem;
-  font-weight: bolder;
 }
 /*Fin footer*/
