@@ -90,7 +90,27 @@ em {
 }
 
 .nav-item-4{
-    
+     display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
+    background-size: auto;
+    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+    border-radius: 1.2rem;
+    padding: 10px;
+    width: 165px;
+}
+
+.nav-item-5{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
+    background-size: auto;
+    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+    border-radius: 1.2rem;
+    padding: 10px;
+    width: 165px;
 }
 
 .nav-items:hover{
