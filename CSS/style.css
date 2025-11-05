@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 strong{
     color: crimson;
@@ -25,7 +26,7 @@ em{
 .link-list{
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1.7rem;
 }
 .nav-items{
     padding: 5px;
@@ -33,23 +34,43 @@ em{
     margin-top: 10px;
 }
 .nav-item-1{
-    display: flex;
+    display: inline-flex;
     text-decoration: none;
     background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
     background-size: auto;
     box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
     border-radius: 1.2rem;
     padding: 10px;
+    width: 165px;
 }
 
 .nav-item-2{
-     display: flex;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
     background-size: auto;
     box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
     border-radius: 1.2rem;
     padding: 10px;
+    width: 165px;
+}
+
+.nav-item-3{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
+    background-size: auto;
+    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+    border-radius: 1.2rem;
+    padding: 10px;
+    width: 165px;
+}
+
+.nav-items:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 a:hover{
@@ -110,6 +131,7 @@ a:hover{
 
 /*Début footer*/
 footer{
+color: cyan;
   text-align: center;
   padding: 2rem 1rem;
   border-top: 2px solid #FF4136;
