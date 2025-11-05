@@ -23,4 +23,9 @@
 .nav-item:hover{
     
 }
+.h1-parent{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif ;
+}
 
