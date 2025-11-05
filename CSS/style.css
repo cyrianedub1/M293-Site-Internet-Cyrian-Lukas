@@ -17,7 +17,7 @@ em{
 .logo{
     border: solid clear 2px;
     border-radius: 5%;
-    height: 60px;
+    height: 80px;
 }
 /*Fin logo*/
 
@@ -28,11 +28,17 @@ em{
 }
 .nav-items{
     padding: 5px;
+    height: 20px;
+    margin-top: 10px;
 }
 .nav-item-1{
+    display: flex;
     text-decoration: none;
-    background-image: url(/IMG_VID/Image_FondDyna.jpg);
-    background-size: auto;
+    background-image: url(/IMG_VID/FondDyna32.png);
+    background-size: 100rem;
+    border: 2px solid black;
+    border-radius: 1.2rem;
+    padding: 10px;
 }
 
 .nav-item:hover{
