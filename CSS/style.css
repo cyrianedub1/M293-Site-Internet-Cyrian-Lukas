@@ -28,10 +28,16 @@ em {
     display: flex;
     justify-content: center;
 }
+
 .logo{
+    display: inline-flex;
     border: solid clear 2px;
     border-radius: 5%;
-    height: 80px;
+    height: 135px;
+    width: 253px;
+    backdrop-filter: blur(300px);
+    border-left: 2px solid rgb(69, 69, 247);
+    
 }
 /*Fin logo*/
 
@@ -70,6 +76,7 @@ em {
     width: 165px;
 }
 
+
 .nav-item-3{
     display: flex;
     justify-content: center;
@@ -80,6 +87,10 @@ em {
     border-radius: 1.2rem;
     padding: 10px;
     width: 165px;
+}
+
+.nav-item-4{
+    
 }
 
 .nav-items:hover{
