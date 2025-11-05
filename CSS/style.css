@@ -2,3 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.logo-index{
+    
+}
+.logo{
+    border: solid clear 2px;
+    border-radius: 5%;
+    display: flex;
+    height: 60px;
+}
+
