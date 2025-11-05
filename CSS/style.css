@@ -52,8 +52,8 @@ em{
     padding: 10px;
 }
 
-.nav-items:hover{
-    cursor: url(/IMG_VID/hamrcrsr.jpg), auto;
+a:hover{
+    cursor: url(/IMG_VID/hamrcrsr.jpg), pointer;
 }
 /*Fin nav*/
 
