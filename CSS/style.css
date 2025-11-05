@@ -34,15 +34,19 @@ em{
 .nav-item-1{
     display: flex;
     text-decoration: none;
-    background-image: url(/IMG_VID/FondDyna32.png);
-    background-size: 100rem;
-    border: 2px solid black;
+    background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
+    background-size: auto;
+    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
     border-radius: 1.2rem;
     padding: 10px;
 }
 
-.nav-item:hover{
+.nav-item-2{
     
+}
+
+.nav-item:hover{
+    cursor: url('images/mon_curseur.cur'), auto;
 }
 /*Fin nav*/
 
