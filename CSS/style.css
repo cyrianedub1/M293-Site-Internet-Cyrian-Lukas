@@ -26,12 +26,13 @@ em{
     display: flex;
     justify-content: center;
 }
-.nav-item-1{
+.nav-items{
     padding: 5px;
+}
+.nav-item-1{
     text-decoration: none;
     background-image: url(/IMG_VID/Image_FondDyna.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .nav-item:hover{
