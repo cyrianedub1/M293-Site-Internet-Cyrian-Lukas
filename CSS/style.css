@@ -46,7 +46,7 @@ em{
 }
 
 .nav-item:hover{
-    cursor: url('images/mon_curseur.cur'), auto;
+    cursor: url(), auto;
 }
 /*Fin nav*/
 
