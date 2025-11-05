@@ -29,6 +29,7 @@ em{
 .nav-item{
     padding: 5px;
     text-decoration: none;
+    background-image: url(/IMG_VID/Image_FondDyna.jpg);
 }
 
 .nav-item:hover{
