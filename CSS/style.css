@@ -113,6 +113,8 @@ em {
     width: 165px;
 }
 
+
+
 .nav-items:hover{
     transform: scale(1.1);
     transition: 0.2s;
@@ -154,6 +156,14 @@ a:hover{
   max-width: 800px;
   border-radius: 6px;
   font-family: 'Verdana', sans-serif;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  margin-right: auto;
+  margin-left: 2rem; 
+}
+
+.quand-article h2{
+  padding-bottom: 1.5rem;
+  font-weight: bolder;
 }
 
 .section-quand h2 {
@@ -171,12 +181,15 @@ a:hover{
   list-style-type: square;
   color: #37474f;
   font-family: 'Verdana', sans-serif;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: #bfd7f5;
+  box-shadow: 0 0 10px #e7251f;
+  border-radius: 25px;
 }
 
-.liste-index-item{
-    margin-bottom: 0.5rem;
-    color: #37474f;
-}
 
 .quand-article-title{
     font-size: 1.6rem;
