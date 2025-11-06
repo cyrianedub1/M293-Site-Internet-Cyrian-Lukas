@@ -229,4 +229,16 @@ footer {
   font-family: 'Verdana', sans-serif;
   margin-top: 3rem;
 }
+/*Changement des couleurs pour voir les prenoms dans le footer et que ça soit également plus esthétique.*/
+.footer-strong-1{
+  color: cyan;
+}
+
+.footer-strong-2{
+  color: yellow;
+}
+
+.footer-t{
+  color: red;
+}
 /*Fin footer*/
