@@ -8,9 +8,20 @@ strong {
   color: #2c3e50; 
   font-weight: bold;
 }
-
+/* Les backgrounds des body de toutes les pages
+   I I I
+   V V V
+*/
 body{
     background-image: url(/IMG_VID/Robloxhq.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+}
+.dynablocks{
+    background-image: url(/IMG_VID/dynablockbg.jpg);
     background-repeat: no-repeat;
     background-size: 100vw;
     margin: 0;
@@ -55,6 +66,7 @@ em {
 }
 .nav-item-1{
     display: inline-flex;
+    justify-content: center;
     text-decoration: none;
     background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
     background-size: auto;
