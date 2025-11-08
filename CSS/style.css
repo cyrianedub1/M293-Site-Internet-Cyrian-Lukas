@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
+
 
 strong {
   color: #2c3e50; 
@@ -245,6 +245,31 @@ a:hover{
 /*Fin section pourquoi*/
 
 /*Test*/
+
+.chronologie-roblox {
+  margin: 0;        
+  padding: 0;       
+}
+
+/* Liste chronologique */
+.chronologie-list {
+  list-style: none; 
+  margin: 0;        
+  padding: 0;       
+}
+
+/* Éléments de la liste */
+.chronologie-list-item {
+  margin: 0;        
+  padding: 0;       
+  display: block;   
+  line-height: 1.2; 
+}
+
+.chronologie-roblox {
+  display: flex;
+  justify-content: flex-end;
+}
 
 /*Test*/
 
