@@ -39,7 +39,19 @@ em {
     display: flex;
     justify-content: center;
 }
-
+.logo-page-db{
+    display: flex;
+    justify-content: center;
+}
+.logo-db{
+    display: inline-flex;
+    border: solid clear 2px;
+    border-radius: 5%;
+    height: 55px;
+    width: 322px;
+    backdrop-filter: blur(300px);
+    border-left: 2px solid rgb(69, 69, 247);
+}
 .logo{
     display: inline-flex;
     border: solid clear 2px;
