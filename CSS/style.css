@@ -28,16 +28,27 @@ body{
     font-family: 'Segoe UI', sans-serif;
     background-color: #f4f4f4;
 }
+.ouvrirnoob{
+  position: absolute;
+  top: 2;
+  margin-left: 1100px;
+  margin-top: 20px;
+}
+.fermernoob{
+  position: absolute;
+  z-index: 3;
+  margin-left: 1100px;
+  margin-top: 20px;
+}
 .xp2{
   position: absolute;
-  top: 1;
+  z-index: 2;
   margin-left: 1180px;
   margin-top: 110px;
-
 }
 .xp{
   position: absolute;
-  top: 2;
+  z-index: 1;
   margin-left: 1100px;
   margin-top: 20px;
 }
