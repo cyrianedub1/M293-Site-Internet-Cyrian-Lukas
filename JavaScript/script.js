@@ -18,6 +18,14 @@ function redirection(url){
 /*Fin de la methode*/ 
 
 /*Debut de l'événement qui déclanche le son sur le premier lien*/ 
+
+document.getElementById("acceuil").addEventListener("click", (e) => {
+   
+    buoap();//déclanche le son
+    setTimeout(redirection, 525, "index.html")//
+    
+})
+
 document.getElementById("premierlien").addEventListener("click", (e) => {
    
     buoap();//déclanche le son
@@ -29,6 +37,13 @@ document.getElementById("deuxiemelien").addEventListener("click", (e) => {
    
     boooo();//déclanche le son
     setTimeout(redirection, 600, "Roblox2004-2005.html")//
+    
+})
+
+document.getElementById("3emelien").addEventListener("click", (e) => {
+   
+    boooo();//déclanche le son
+    setTimeout(redirection, 600, "#")//
     
 })
 /*Fin*/

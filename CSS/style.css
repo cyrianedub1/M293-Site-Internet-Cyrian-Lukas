@@ -337,6 +337,7 @@ footer {
   background: url(/IMG_VID/discowall-removebg-preview.png);
   background-size: 100vh;
   background-position: 10%;
+  background-origin: border-box;
   background-repeat: no-repeat;
   background-color: #a3c9f7;
   border-left: 5px solid #c0392b;
@@ -345,14 +346,33 @@ footer {
   margin: 2rem auto;
   max-width: 500px;
   border-radius: 6px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   margin-right: auto;
   margin-left: 10rem; 
+  font-size: larger;
 }
 
-.article-dynabout{
-  padding: 1rem;
+.section-dynafacts{
+  background: url(/IMG_VID/discowall-removebg-preview.png);
+  background-size: 100vh;
+  background-position: 10%;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-color: #a3c9f7;
+  border-left: 5px solid #c0392b;
+  color: #000000;
+  padding: 1.5rem;
+  height: 400px;
+  width: 600px;
+  margin: 2rem auto;
+  max-width: 500px;
+  border-radius: 6px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  margin-right: auto;
+  margin-left: 90rem; 
 }
 
 /*Fin Dynablocks*/
@@ -360,6 +380,22 @@ footer {
 
 /*Roblox 200405*/
 .roblox2k05{
-  background-image: url();
+  background-image: url(/IMG_VID/Castle.jpg);
 }
+
+	.logo-2005parent{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .logo-2005{
+    display: inline-flex;
+    border: solid clear 2px;
+    border-radius: 5%;
+    height: 135px;
+    width: 420px;
+    backdrop-filter: blur(300px);
+    border-left: 2px solid rgb(69, 69, 247);
+  }
 /*Fin*/
