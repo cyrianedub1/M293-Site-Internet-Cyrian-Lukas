@@ -13,20 +13,26 @@ strong {
    V V V
 */
 body{
-    background-image: url(/IMG_VID/Robloxhq.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/IMG_VID/Robloxhq.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
 }
 .dynablocks{
-    background-image: url(/IMG_VID/dynablockbg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/IMG_VID/dynablockbg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
 }
 .ouvrirnoob{
   display: none;
@@ -298,7 +304,7 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
   font-family: 'Verdana', sans-serif;
-  margin-top: 3rem;
+  margin-top: auto;
   border-top: 2px solid red;
   box-shadow: 0 8px 24px rgba(190, 174, 174, 0.918);
   
@@ -328,17 +334,21 @@ footer {
 
 /*Début Dynablocks*/
 .section-dynabout{
-   background-color: #a3c9f7;
+  background: url(/IMG_VID/discowall-removebg-preview.png);
+  background-size: 100vh;
+  background-position: 10%;
+  background-repeat: no-repeat;
+  background-color: #a3c9f7;
   border-left: 5px solid #c0392b;
-  color: #2c3e50;
+  color: #000000;
   padding: 1.5rem;
   margin: 2rem auto;
-  max-width: 800px;
+  max-width: 500px;
   border-radius: 6px;
-  font-family: 'Verdana', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   margin-right: auto;
-  margin-left: 2rem; 
+  margin-left: 10rem; 
 }
 
 .article-dynabout{
@@ -346,3 +356,10 @@ footer {
 }
 
 /*Fin Dynablocks*/
+
+
+/*Roblox 200405*/
+.roblox2k05{
+  background-image: url();
+}
+/*Fin*/

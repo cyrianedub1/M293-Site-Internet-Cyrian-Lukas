@@ -28,7 +28,7 @@ document.getElementById("premierlien").addEventListener("click", (e) => {
 document.getElementById("deuxiemelien").addEventListener("click", (e) => {
    
     boooo();//déclanche le son
-    setTimeout(redirection, 600, "dynablock.html")//
+    setTimeout(redirection, 600, "Roblox2004-2005.html")//
     
 })
 /*Fin*/
