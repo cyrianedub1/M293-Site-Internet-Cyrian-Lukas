@@ -363,9 +363,7 @@ footer {
   background: url(/IMG_VID/discowall-removebg-preview.png);
   background-size: 100vh;
   background-position: 10%;
-  background-origin: border-box;
   background-repeat: no-repeat;
-  background-color: #a3c9f7;
   border-left: 5px solid #c0392b;
   color: #000000;
   padding: 1.5rem;
@@ -386,8 +384,8 @@ footer {
 
 /*Roblox 200405*/
 .roblox2k05{
-  background-image: url(/IMG_VID/Castle.jpg);}
-  
+  background-image: url(/IMG_VID/old-roblox-games-classic-favorites-3-1024x528.webp);}
+
 
 	.logo-2005parent{
     display: flex;
