@@ -386,8 +386,8 @@ footer {
 
 /*Roblox 200405*/
 .roblox2k05{
-  background-image: url(/IMG_VID/Castle.jpg);
-}
+  background-image: url(/IMG_VID/Castle.jpg);}
+  
 
 	.logo-2005parent{
     display: flex;
