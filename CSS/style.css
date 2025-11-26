@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    list-style-type:  none;
 }
 
 
@@ -28,11 +28,11 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url(/IMG_VID/dynablockbg.jpg);
+  background-image: url(/IMG_VID/noFilter.webp);
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: 103vw;
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f4f4;
 }
 .ouvrirnoob{
@@ -51,11 +51,27 @@ body{
   height: 27px;
   width: 70;
 }
+@keyframes bounce {
+    0%, 100%, 20%, 50%, 80% {
+        transform: translateY(0); 
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px); 
+    }
+}
+
 .noob{
   position: absolute;
   z-index: 2;
   margin-left: 1180px;
   margin-top: 110px;
+  display: inline-block;
+}
+.noob:hover{
+  animation: bounce 1s infinite;
 }
 .xp{
   position: absolute;
@@ -83,7 +99,6 @@ em {
     height: 55px;
     width: 322px;
     backdrop-filter: blur(300px);
-    border-left: 2px solid rgb(69, 69, 247);
 }
 .logo{
     display: inline-flex;
@@ -91,9 +106,8 @@ em {
     border-radius: 5%;
     height: 135px;
     width: 253px;
-    backdrop-filter: blur(300px);
-    border-left: 2px solid rgb(69, 69, 247);
-    
+    backdrop-filter: blur(40px);
+     
 }
 /*Fin logo*/
 
@@ -109,6 +123,25 @@ em {
     height: 20px;
     margin-top: 10px;
 }
+.hidden {
+   display: none;
+}
+nav #toggleButton{
+  margin-left: 100px;
+}
+#toggleButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+
+    width: 30px;
+}
+#toggleButton img{
+  height: 100px;
+  width: 100px;
+}
 .nav-item-1{
     display: inline-flex;
     justify-content: center;
@@ -119,6 +152,17 @@ em {
     border-radius: 1.2rem;
     padding: 10px;
     width: 165px;
+}
+.nav-item-open{
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: none;
+    background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
+    background-size: auto;
+    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+    border-radius: 50%;
+    padding: 10px;
+    width: 30px;
 }
 
 .nav-item-2{
@@ -333,68 +377,91 @@ footer {
 
 
 
-
-
-
-
-
-
 /*Début Dynablocks*/
-.section-dynabout{
-  background: url(/IMG_VID/discowall-removebg-preview.png);
+
+.maindyna{
+  display: flex;
+  flex-direction: column;
+}
+.section-dynafacts, .section-dynabout{
   background-size: 100vh;
   background-position: 10%;
-  background-origin: border-box;
   background-repeat: no-repeat;
-  background-color: #a3c9f7;
-  border-left: 5px solid #c0392b;
-  color: #000000;
   padding: 1.5rem;
   margin: 2rem auto;
-  max-width: 500px;
   border-radius: 6px;
   font-family: 'Times New Roman', Times, serif;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.section-dynabout{
+  background-origin: border-box;
+  backdrop-filter: blur(50px);
+  color: #ffffff;
+  max-width: 500px;
+  box-shadow: 0 0 10px #07fcdb, 0 0 20px #000000;
   margin-right: auto;
   margin-left: 10rem; 
   font-size: larger;
+
 }
 
+
 .section-dynafacts{
-  background: url(/IMG_VID/discowall-removebg-preview.png);
-  background-size: 100vh;
-  background-position: 10%;
-  background-repeat: no-repeat;
+  backdrop-filter: blur(50px); 
   border-left: 5px solid #c0392b;
   color: #000000;
-  padding: 1.5rem;
   height: 400px;
   width: 600px;
-  margin: 2rem auto;
   max-width: 500px;
-  border-radius: 6px;
-  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-  margin-right: auto;
-  margin-left: 90rem; 
+  box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
 }
+
+.article-dynabout{
+  
+
+}
+
+.article-dynabout a{
+  text-decoration: none;
+  color: crimson;
+}
+
+.article-dynabout a:hover{
+  color: #c0392b;
+  text-decoration: underline;
+}
+
+.pdynabout{
+  color: white;
+  
+}
+
+.dynablocksh1{
+  
+}
+
+
 
 /*Fin Dynablocks*/
 
 
-/*Roblox 200405*/
+/*Roblox 2004-05*/
 .roblox2k05{
-  background-image: url(/IMG_VID/old-roblox-games-classic-favorites-3-1024x528.webp);}
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/IMG_VID/old-roblox-games-classic-favorites-3-1024x528.webp);
+}
 
 
-	.logo-2005parent{
+.logo-2005parent{
     display: flex;
     justify-content: center;
-  }
+}
 
 
-  .logo-2005{
+.logo-2005{
     display: inline-flex;
     border: solid clear 2px;
     border-radius: 5%;
@@ -402,5 +469,5 @@ footer {
     width: 420px;
     backdrop-filter: blur(300px);
     border-left: 2px solid rgb(69, 69, 247);
-  }
+ }
 /*Fin*/

@@ -1,26 +1,17 @@
 /*Un fichier javascript pour plus tard*/
-
 /*Script qui permet de faire un sons lorsque l'ont clique sur l'un des liens*/
 function buoap(){
             let buoap = new Audio();
             buoap.src = "SFX/ROBLOX Sound - button.mp3";
             buoap.play();
-        }
+            }
 function boooo(){
             let boooo = new Audio();
             boooo.src = "SFX/Build (Bass.wav) - Classic Trowel - Roblox.mp3";
             boooo.play();
-        }
-function buoap(){
-            let buoap = new Audio();
-            buoap.src = "SFX/ROBLOX Sound - button.mp3";
-            buoap.play();
-        }
-function boooo(){
-            let boooo = new Audio();
-            boooo.src = "SFX/Build (Bass.wav) - Classic Trowel - Roblox.mp3";
-            boooo.play();
-        }
+            }
+
+
  /*Methode pour la redirection*/       
 function redirection(url){
     window.location.href = url;
@@ -53,9 +44,15 @@ document.getElementById("deuxiemelien").addEventListener("click", (e) => {
 document.getElementById("3emelien").addEventListener("click", (e) => {
    
     boooo();//déclanche le son
-    setTimeout(redirection, 600, "#")//
+    setTimeout(redirection, 600, "Roblox2006-2017.html")//
     
 })
 
+const toggleButton = document.getElementById('toggleButton');
+const liensContainer = document.getElementById('liensContainer');
 
+toggleButton.addEventListener('click', function() {
+
+    liensContainer.classList.toggle('hidden');
+});
 /*Fin*/
