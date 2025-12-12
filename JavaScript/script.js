@@ -10,7 +10,11 @@ function boooo(){
             boooo.src = "SFX/Build (Bass.wav) - Classic Trowel - Roblox.mp3";
             boooo.play();
             }
-
+function startupSFX(){
+            let startupSFX = new Audio();
+            startupSFX.src = "SFX/Windows7-StartupSound.mp3";
+            startupSFX.play();
+}
 
  /*Methode pour la redirection*/       
 function redirection(url){
@@ -48,11 +52,13 @@ document.getElementById("3emelien").addEventListener("click", (e) => {
     
 })
 
+
 const toggleButton = document.getElementById('toggleButton');
 const liensContainer = document.getElementById('liensContainer');
 
 toggleButton.addEventListener('click', function() {
 
+    startupSFX();
     liensContainer.classList.toggle('hidden');
 });
 /*Fin*/

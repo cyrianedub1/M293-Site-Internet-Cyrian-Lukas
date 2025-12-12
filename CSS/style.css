@@ -135,7 +135,6 @@ nav #toggleButton{
     justify-content: center;
     text-decoration: none;
     box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
-
     width: 30px;
 }
 #toggleButton img{
