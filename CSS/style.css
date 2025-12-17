@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     list-style-type:  none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -21,7 +22,7 @@ body{
   background-repeat: no-repeat;
   background-size: 100vw;
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  
   background-color: #f4f4f4;
 }
 .dynablocks{
@@ -32,7 +33,7 @@ body{
   background-repeat: no-repeat;
   background-size: 103vw;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  
   background-color: #f4f4f4;
 }
 .ouvrirnoob{
@@ -117,17 +118,21 @@ em {
     justify-content: center;
     gap: 1.7rem;
     padding-bottom: 1.5rem;
+    transition: 0.9s;
 }
 .nav-items{
     padding: 5px;
     height: 20px;
     margin-top: 10px;
+    transition: 0.9s;
 }
 .hidden {
    display: none;
+   transition: 0.9s;
 }
 nav #toggleButton{
   margin-left: 100px;
+  transition: 0.9s;
 }
 #toggleButton{
     display: flex;
@@ -136,6 +141,7 @@ nav #toggleButton{
     text-decoration: none;
     box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
     width: 30px;
+    transition: 0.9s;
 }
 #toggleButton img{
   height: 100px;
@@ -151,6 +157,7 @@ nav #toggleButton{
     border-radius: 1.2rem;
     padding: 10px;
     width: 165px;
+    transition: 0.9s;
 }
 .nav-item-open{
     display: inline-flex;
@@ -230,13 +237,13 @@ a:hover{
 .h1-parent{
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif ;
+    
     color: white;
     -webkit-text-stroke: 0.5px red;
 }
 
 .h1-subtitle{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     text-decoration: underline;
     font-weight: 300;
     color: rgb(250, 24, 24);
@@ -257,7 +264,7 @@ a:hover{
   margin: 2rem auto;
   max-width: 800px;
   border-radius: 6px;
-  font-family: 'Verdana', sans-serif;
+  
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   margin-right: auto;
   margin-left: 2rem; 
@@ -282,7 +289,7 @@ a:hover{
   padding-left: 1.5rem;
   list-style-type: square;
   color: #37474f;
-  font-family: 'Verdana', sans-serif;
+  
   padding-top: 1.5rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
@@ -313,7 +320,7 @@ a:hover{
   margin: 2rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   color: black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 
 }
 
@@ -353,7 +360,7 @@ footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
-  font-family: 'Verdana', sans-serif;
+  
   margin-top: auto;
   border-top: 2px solid red;
   box-shadow: 0 8px 24px rgba(190, 174, 174, 0.918);
@@ -381,45 +388,50 @@ footer {
 .maindyna{
   display: flex;
   flex-direction: column;
-}
-.section-dynafacts, .section-dynabout{
-  background-size: 100vh;
-  background-position: 10%;
-  background-repeat: no-repeat;
-  padding: 1.5rem;
-  margin: 2rem auto;
-  border-radius: 6px;
-  font-family: 'Times New Roman', Times, serif;
+  align-items: center;
+  margin: 1rem;
 }
 
+
+
 .section-dynabout{
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  margin-top: auto;
+  border-radius: 6px;
   background-origin: border-box;
   backdrop-filter: blur(50px);
   color: #ffffff;
   max-width: 500px;
   box-shadow: 0 0 10px #07fcdb, 0 0 20px #000000;
-  margin-right: auto;
-  margin-left: 10rem; 
   font-size: larger;
-
+  margin-right: 50rem;
+  margin-top: 1rem;
+}
+.section-dynafacts article, .section-dynabout article{
+  display: flex;
+  margin-top: 1rem;
 }
 
-
 .section-dynafacts{
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  margin-top: auto;
+  border-radius: 6px;
+  align-content: end;
   backdrop-filter: blur(50px); 
   border-left: 5px solid #c0392b;
-  color: #000000;
+  color: white;
   height: 400px;
   width: 600px;
   max-width: 500px;
   font-size: 20px;
   box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+  margin-left: 40rem;
 }
 
-.article-dynabout{
-  
-
-}
 
 .article-dynabout a{
   text-decoration: none;

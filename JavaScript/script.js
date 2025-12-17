@@ -1,9 +1,10 @@
-/*Un fichier javascript pour plus tard*/
 /*Script qui permet de faire un sons lorsque l'ont clique sur l'un des liens*/
+
+/*Création de fonctions */
 function buoap(){
-            let buoap = new Audio();
-            buoap.src = "SFX/ROBLOX Sound - button.mp3";
-            buoap.play();
+            let buoap = new Audio();//Création d'une nouvelle variable
+            buoap.src = "SFX/ROBLOX Sound - button.mp3";//Accorde la source de la variable à l'audio
+            buoap.play();//Joue le son
             }
 function boooo(){
             let boooo = new Audio();
@@ -27,28 +28,22 @@ function redirection(url){
 document.getElementById("accueil").addEventListener("click", (e) => {
    
     buoap();//déclanche le son
-    setTimeout(redirection, 525, "index.html")//
+    setTimeout(redirection, 525, "index.html")//Met un temps d'attente de 525ms puis déclanche la fonction 'redirection' qui redirige sur le lien choisi 
     
 })
 
 document.getElementById("premierlien").addEventListener("click", (e) => {
    
     buoap();//déclanche le son
-    setTimeout(redirection, 525, "dynablock.html")//
+    setTimeout(redirection, 525, "dynablock.html")///Met un temps d'attente de 525ms puis déclanche la fonction 'redirection' qui redirige sur le lien choisi 
     
 })
 
-document.getElementById("deuxiemelien").addEventListener("click", (e) => {
-   
-    boooo();//déclanche le son
-    setTimeout(redirection, 600, "Roblox2004-2005.html")//
-    
-})
-
+            
 document.getElementById("3emelien").addEventListener("click", (e) => {
-   
+    
     boooo();//déclanche le son
-    setTimeout(redirection, 600, "Roblox2006-2017.html")//
+    setTimeout(redirection, 600, "Roblox2006-2017.html")//Met un temps d'attente de 525ms puis déclanche la fonction 'redirection' qui redirige sur le lien choisi 
     
 })
 
