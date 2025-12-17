@@ -440,6 +440,13 @@ footer {
 }
 
 
+.article-dynafacts img{
+  display: flex;
+  height: 30px;
+  
+}
+
+
 .article-dynabout a{
   text-decoration: none;
   color: crimson;
