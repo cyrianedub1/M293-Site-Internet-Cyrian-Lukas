@@ -5,7 +5,9 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
+hr{
+  color: rgb(252, 29, 66);
+}
 strong {
   color: #2c3e50; 
   font-weight: bold;
@@ -409,6 +411,11 @@ footer {
   margin-right: 50rem;
   margin-top: 1rem;
 }
+
+.section-dynabout h1{
+  font-weight: bolder;
+}
+
 .section-dynafacts article, .section-dynabout article{
   display: flex;
   margin-top: 1rem;
