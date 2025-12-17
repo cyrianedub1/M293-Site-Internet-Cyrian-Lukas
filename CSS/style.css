@@ -38,16 +38,7 @@ body{
 }
 
 
-.RobloxModernBody{
-    min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-image: url(/IMG_VID/roblox2016hp.png);
-  background-repeat: no-repeat;
-  background-size: 100vw;
-  margin: 0;
-  background-color: #f4f4f4;
-}
+
 
 .ouvrirnoob{
   display: none;
@@ -531,4 +522,30 @@ footer {
   margin-right: auto;
   margin-left: 2rem; 
 }
-/*Fin*/
+/*Fin roblox 2006-2017*/
+
+/*début roblox moderne */
+
+.RobloxModernBody{
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/IMG_VID/roblox2016hp.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+
+
+.resumer-section{
+  display: flex;
+  border: 2px solid blue;
+  flex-direction: column;
+  
+
+}
+
+
+/* fin roblox moderne */
