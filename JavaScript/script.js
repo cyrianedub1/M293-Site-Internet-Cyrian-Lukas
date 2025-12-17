@@ -40,6 +40,12 @@ document.getElementById("3emelien").addEventListener("click", (e) => {
   setTimeout(redirection, 600, "Roblox2006-2017.html"); //Met un temps d'attente de 525ms puis déclanche la fonction 'redirection' qui redirige sur le lien choisi
 });
 
+document.getElementById("4emelien").addEventListener("click", (e) => {
+  boooo(); //déclanche le son
+  setTimeout(redirection, 600, "RobloxModern.html"); //Met un temps d'attente de 525ms puis déclanche la fonction 'redirection' qui redirige sur le lien choisi
+});
+
+
 const toggleButton = document.getElementById("toggleButton");
 const liensContainer = document.getElementById("liensContainer");
 
