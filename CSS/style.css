@@ -24,7 +24,6 @@ body{
   background-repeat: no-repeat;
   background-size: 100vw;
   margin: 0;
-  
   background-color: #f4f4f4;
 }
 .dynablocks{
@@ -40,7 +39,14 @@ body{
 
 
 .RobloxModernBody{
-  lukas.ifconosle.rr
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/IMG_VID/roblox2016hp.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  margin: 0;
+  background-color: #f4f4f4;
 }
 
 .ouvrirnoob{
@@ -492,7 +498,37 @@ footer {
 /*Roblox 2006-2017*/
 .guest{
   
+  width: 700px;
+  height: 300px;
 
+}
+.logo-2006-2017{
+  display: flex;
+  border: solid clear 2px;
+  border-radius: 5%;
+  backdrop-filter: blur(40px);
+  height: 100px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.roblox2k06-17{
+  display: flex;
+  flex-direction: row;
+}
+.quand-section-2{
+  display: flex;
+  flex-direction: row;
+  background-color: #a3c9f7;
+  border-left: 5px solid #c0392b;
+  color: #2c3e50;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 6px;
 
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  margin-right: auto;
+  margin-left: 2rem; 
 }
 /*Fin*/
