@@ -1,22 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style-type:  none;
+/* Le CSS de notre site internet.
+M293 - Cyrian & Lukas
+I-DA-P1C */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-hr{
+hr {
   color: rgb(252, 29, 66);
 }
+
 strong {
-  color: #2c3e50; 
+  color: #2c3e50;
   font-weight: bold;
 }
+
 /* Les backgrounds des body de toutes les pages
    I I I
    V V V
 */
-body{
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,7 +34,8 @@ body{
   margin: 0;
   background-color: #f4f4f4;
 }
-.dynablocks{
+
+.dynablocks {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -40,14 +49,15 @@ body{
 
 
 
-.ouvrirnoob{
+.ouvrirnoob {
   display: none;
   position: absolute;
   z-index: 4;
   margin-left: 1100px;
   margin-top: 20px;
 }
-.fermernoob{
+
+.fermernoob {
   display: none;
   position: absolute;
   z-index: 3;
@@ -56,202 +66,227 @@ body{
   height: 27px;
   width: 70;
 }
+
 @keyframes bounce {
-    0%, 100%, 20%, 50%, 80% {
-        transform: translateY(0); 
-    }
-    40% {
-        transform: translateY(-20px);
-    }
-    60% {
-        transform: translateY(-10px); 
-    }
+
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-20px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
 }
 
-.noob{
+.noob {
   position: absolute;
   z-index: 2;
   margin-left: 1180px;
   margin-top: 110px;
   display: inline-block;
 }
-.noob:hover{
+
+.noob:hover {
   animation: bounce 1s infinite;
 }
-.xp{
+
+.xp {
   position: absolute;
   z-index: 1;
   margin-left: 1100px;
   margin-top: 20px;
 }
+
 em {
   color: #0277bd;
   font-style: italic;
 }
+
 /*Début logo*/
-.logo-index{
-    display: flex;
-    justify-content: center;
+.logo-index {
+  display: flex;
+  justify-content: center;
 }
-.logo-page-db{
-    display: flex;
-    justify-content: center;
+
+.logo-page-db {
+  display: flex;
+  justify-content: center;
 }
-.logo-db{
-    display: inline-flex;
-    border: solid clear 2px;
-    border-radius: 5%;
-    height: 55px;
-    width: 322px;
-    backdrop-filter: blur(300px);
+
+.logo-db {
+  display: inline-flex;
+  border: solid clear 2px;
+  border-radius: 5%;
+  height: 55px;
+  width: 322px;
+  backdrop-filter: blur(300px);
 }
-.logo{
-    display: inline-flex;
-    border: solid clear 2px;
-    border-radius: 5%;
-    height: 135px;
-    width: 253px;
-    backdrop-filter: blur(40px);
-     
+
+.logo {
+  display: inline-flex;
+  border: solid clear 2px;
+  border-radius: 5%;
+  height: 135px;
+  width: 253px;
+  backdrop-filter: blur(40px);
+
 }
+
 /*Fin logo*/
 
 /*Début nav*/
-.link-list{
-    display: flex;
-    justify-content: center;
-    gap: 1.7rem;
-    padding-bottom: 1.5rem;
-    transition: 0.9s;
+.link-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.7rem;
+  padding-bottom: 1.5rem;
+  transition: 0.9s;
 }
-.nav-items{
-    padding: 5px;
-    height: 20px;
-    margin-top: 10px;
-    transition: 0.9s;
+
+.nav-items {
+  padding: 5px;
+  height: 20px;
+  margin-top: 10px;
+  transition: 0.9s;
 }
+
 .hidden {
-   display: none;
-   transition: 0.9s;
+  display: none;
+  transition: 0.9s;
 }
-nav #toggleButton{
+
+nav #toggleButton {
   margin-left: 100px;
   transition: 0.9s;
 }
-#toggleButton{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
-    width: 30px;
-    transition: 0.9s;
+
+#toggleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+  width: 30px;
+  transition: 0.9s;
 }
-#toggleButton img{
+
+#toggleButton img {
   height: 100px;
   width: 100px;
 }
-.nav-item-1{
-    display: inline-flex;
-    justify-content: center;
-    text-decoration: none;
-    background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
-    background-size: auto;
-    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
-    border-radius: 1.2rem;
-    padding: 10px;
-    width: 165px;
-    transition: 0.9s;
-}
-.nav-item-open{
-    display: inline-flex;
-    justify-content: center;
-    text-decoration: none;
-    background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
-    background-size: auto;
-    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
-    border-radius: 50%;
-    padding: 10px;
-    width: 30px;
+
+.nav-item-1 {
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+  background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
+  background-size: auto;
+  box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+  border-radius: 1.2rem;
+  padding: 10px;
+  width: 165px;
+  transition: 0.9s;
 }
 
-.nav-item-2{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
-    background-size: auto;
-    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
-    border-radius: 1.2rem;
-    padding: 10px;
-    width: 165px;
+.nav-item-open {
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+  background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
+  background-size: auto;
+  box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+  border-radius: 50%;
+  padding: 10px;
+  width: 30px;
 }
 
-
-.nav-item-3{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
-    background-size: auto;
-    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
-    border-radius: 1.2rem;
-    padding: 10px;
-    width: 165px;
-}
-
-.nav-item-4{
-     display: flex;
-    justify-content: center;
-    text-decoration: none;
-    background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
-    background-size: auto;
-    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
-    border-radius: 1.2rem;
-    padding: 10px;
-    width: 165px;
-}
-
-.nav-item-5{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
-    background-size: auto;
-    box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
-    border-radius: 1.2rem;
-    padding: 10px;
-    width: 165px;
+.nav-item-2 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
+  background-size: auto;
+  box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+  border-radius: 1.2rem;
+  padding: 10px;
+  width: 165px;
 }
 
 
-
-
-.nav-items:hover{
-    transform: scale(1.1);
-    transition: 0.2s;
+.nav-item-3 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
+  background-size: auto;
+  box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+  border-radius: 1.2rem;
+  padding: 10px;
+  width: 165px;
 }
 
-a:hover{
-    cursor: url(/IMG_VID/hamrcrsr.jpg), pointer;
+.nav-item-4 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
+  background-size: auto;
+  box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+  border-radius: 1.2rem;
+  padding: 10px;
+  width: 165px;
 }
+
+.nav-item-5 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-image: url(/IMG_VID/46929662-verde-plastico-brinquedo-placa-de-base-fundo-com-rede-do-circular-pregos-quadrado-bandeira-pano-de-fundo-vetor.jpg);
+  background-size: auto;
+  box-shadow: 0 0 10px #FFE066, 0 0 20px #000000;
+  border-radius: 1.2rem;
+  padding: 10px;
+  width: 165px;
+}
+
+
+
+
+.nav-items:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+a:hover {
+  cursor: url(/IMG_VID/hamrcrsr.jpg), pointer;
+}
+
 /*Fin nav*/
 
 /*Début header*/
-.h1-parent{
-    display: flex;
-    justify-content: center;
-    
-    color: white;
-    -webkit-text-stroke: 0.5px red;
+.h1-parent {
+  display: flex;
+  justify-content: center;
+
+  color: white;
+  -webkit-text-stroke: 0.5px red;
 }
 
-.h1-subtitle{
-    
-    text-decoration: underline;
-    font-weight: 300;
-    color: rgb(250, 24, 24);
+.h1-subtitle {
+
+  text-decoration: underline;
+  font-weight: 300;
+  color: rgb(250, 24, 24);
 }
+
 /*Fin header*/
 
 /*Début main*/
@@ -268,13 +303,13 @@ a:hover{
   margin: 2rem auto;
   max-width: 800px;
   border-radius: 6px;
-  
+
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   margin-right: auto;
-  margin-left: 2rem; 
+  margin-left: 2rem;
 }
 
-.quand-article h2{
+.quand-article h2 {
   padding-bottom: 1.5rem;
   font-weight: bolder;
 }
@@ -285,15 +320,15 @@ a:hover{
   margin-bottom: 1rem;
 }
 
-.roblox{
-    color: #ee131e;
+.roblox {
+  color: #ee131e;
 }
 
-.liste-index{
+.liste-index {
   padding-left: 1.5rem;
   list-style-type: square;
   color: #37474f;
-  
+
   padding-top: 1.5rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
@@ -304,31 +339,32 @@ a:hover{
 }
 
 
-.quand-article-title{
-    font-size: 1.6rem;
-  color: #2c3e50;  
+.quand-article-title {
+  font-size: 1.6rem;
+  color: #2c3e50;
   margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
 /*Fin section quand*/
 
 /*Début section pourquoi*/
-.section-pourquoi{
-    background: rgba(255, 255, 255, 0.15); 
-  backdrop-filter: blur(10px); 
+.section-pourquoi {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(0, 0, 0, 0.3);
-  border-left: 6px solid #0984e3; 
+  border-left: 6px solid #0984e3;
   border-radius: 12px;
   padding: 1.5rem;
   margin: 2rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   color: black;
-  
+
 
 }
 
-.p-pk{
+.p-pk {
   -webkit-text-stroke: 0.1px gray;
 }
 
@@ -344,13 +380,14 @@ a:hover{
   margin-bottom: 1rem;
 }
 
-.h2-pk{
+.h2-pk {
   color: crimson;
 }
 
 .section-pourquoi p {
   line-height: 1.6;
 }
+
 /*Fin section pourquoi*/
 
 /*Test*/
@@ -364,24 +401,26 @@ footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
-  
+
   margin-top: auto;
   border-top: 2px solid red;
   box-shadow: 0 8px 24px rgba(190, 174, 174, 0.918);
-  
+
 }
+
 /*Changement des couleurs pour voir les prenoms dans le footer et que ça soit également plus esthétique.*/
-.footer-strong-1{
+.footer-strong-1 {
   color: cyan;
 }
 
-.footer-strong-2{
+.footer-strong-2 {
   color: yellow;
 }
 
-.footer-t{
+.footer-t {
   color: red;
 }
+
 /*Fin footer*/
 
 
@@ -396,7 +435,7 @@ footer {
   gap: 3rem;
   max-width: 900px;
   margin: auto;
-  border-radius: 20px; 
+  border-radius: 20px;
   box-shadow: 0 0 10px #70ffff, 0 0 20px #000000;
 }
 
@@ -409,7 +448,7 @@ footer {
   padding: 2rem;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-  
+
 }
 
 .section-dynabout:hover,
@@ -486,24 +525,26 @@ footer {
 
 
 /*Roblox 2004-05*/
-.roblox2k05{
+.roblox2k05 {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   background-image: url(/IMG_VID/old-roblox-games-classic-favorites-3-1024x528.webp);
   background-repeat: no-repeat;
   background-size: 120vw;
-  
+
   background-color: #f4f4f4;
 }
+
 /*Roblox 2006-2017*/
-.guest{
-  
+.guest {
+
   width: 700px;
   height: 300px;
 
 }
-.logo-2006-2017{
+
+.logo-2006-2017 {
   display: flex;
   border: solid clear 2px;
   border-radius: 5%;
@@ -513,11 +554,13 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
-.roblox2k06-17{
+
+.roblox2k06-17 {
   display: flex;
   flex-direction: row;
 }
-.quand-section-2{
+
+.quand-section-2 {
   display: flex;
   flex-direction: row;
   background-color: #a3c9f7;
@@ -527,35 +570,110 @@ footer {
   margin: 2rem auto;
   max-width: 800px;
   border-radius: 6px;
-
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   margin-right: auto;
-  margin-left: 2rem; 
+  margin-left: 2rem;
 }
+
 /*Fin roblox 2006-2017*/
 
 /*début roblox moderne */
 
-.RobloxModernBody{
-    min-height: 100vh;
+/* grace a la div dans l'html j'ai pu centrer le contenu au milieu dcp */
+
+.rblx-moderne-conteneur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.RobloxModernBody {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-image: url(/IMG_VID/roblox2016hp.png);
   background-repeat: no-repeat;
   background-size: 100vw;
-  margin: 0;
   background-color: #f4f4f4;
-}
-
-
-
-.resumer-section{
   display: flex;
-  border: 2px solid blue;
+}
+
+.RobloxModernBody main {
+  width: 850px;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
-  
+  background-color: rgba(255, 255, 255, 0.92);
+  border: 1px solid #c0c0c0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+
+.resumer-section {
+  padding: 1rem;
 
 }
+
+
+.resumer-article {
+  border-left: 4px solid #0078d7;
+  padding-left: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.amelioration-article h2 {
+  font-size: 20px;
+  color: #0078d7;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  font-size: 30px;
+}
+
+.amelioration-article p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+.amelioration-article {
+  border-left: 4px solid #0078d7;
+  padding-left: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+
+.resumer-article h2 {
+  font-size: 20px;
+  color: #0078d7;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  font-size: 30px;
+}
+
+
+.resumer-article p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.resumer-article,
+.amelioration-article {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 20px;
+}
+
+
 
 
 /* fin roblox moderne */

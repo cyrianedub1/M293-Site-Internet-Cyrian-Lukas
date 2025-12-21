@@ -1,52 +1,65 @@
 <!--
     Page sur Roblox moderne (2018-2022)
 -->
+
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roblox Moderne</title>
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body class="RobloxModernBody">
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body class="RobloxModernBody">
     <nav>
-        <button id="toggleButton" class="nav-items link" href="#">
-            <img src="IMG_VID/opennoob-removebg-preview.png" alt="">
-        </button>
-        <ul id="liensContainer" class="link-list hidden">
-            <a class="nav-item-1 nav-items" id="accueil" href="#">
-                <img src="IMG_VID/Roblox-Logo.png" alt="">
-            </a>
-            <a class="nav-item-3 nav-items" id="premierlien" href="#">
-                <img src="IMG_VID/DynaBlocks_logo_-_2003-2004.svg.png" alt="">
-            </a>
-            <a class="nav-item-4 nav-items" id="3emelien" href="#">
-                <img src="IMG_VID/Roblox_logo_in_2017.webp" alt="">
-            </a>
-            <a class="nav-item-5 nav-items" onclick="buoap()" href="#">
-                <img src="IMG_VID/Roblox-Logo.png" alt="">
-            </a>
-            
-            <a id="4emelien" href="#">
-                
-            </a>
-        </ul>
+      <button id="toggleButton" class="nav-items link" href="#">
+        <img src="IMG_VID/opennoob-removebg-preview.png" alt="" />
+      </button>
+      <ul id="liensContainer" class="link-list hidden">
+        <a class="nav-item-1 nav-items" id="accueil" href="#">
+          <img src="IMG_VID/Roblox-Logo.png" alt="" />
+        </a>
+        <a class="nav-item-3 nav-items" id="premierlien" href="#">
+          <img src="IMG_VID/DynaBlocks_logo_-_2003-2004.svg.png" alt="" />
+        </a>
+        <a class="nav-item-4 nav-items" id="3emelien" href="#">
+          <img src="IMG_VID/Roblox_logo_in_2017.webp" alt=""/>
+        </a>
+        <a class="nav-item-5 nav-items" onclick="buoap()" href="#">
+          <img src="IMG_VID/Roblox-Logo.png" alt="" />
+        </a>
+
+        <a id="4emelien" href="#"> </a>
+      </ul>
     </nav>
-        <header class="h1-parent">
-        <h1 class="h1-index">Roblox Moderne</h1>
-        <em class="h1-subtitle">Le grand changement</em>
+    <header class="h1-parent">
+      <h1 class="h1-index">Roblox Moderne</h1>
+      <em class="h1-subtitle">Le grand changement</em>
     </header>
-    <main>
+    <!-- pour faire court, j'ai créer la dive pr faire un centrage avec flexbox -->
+    <div class="rblx-moderne-conteneur">
+      <main>
         <section class="resumer-section">
-            <article class="resumer-article">
-                <h2>Resumer</h2>
-                 <p>
-                    La période 2018‑2022 marque une transformation profonde de Roblox, tant sur le plan technique que culturel. À partir de 2018, la plateforme consolide sa popularité grâce à l’essor de jeux emblématiques comme Adopt Me! ou Jailbreak, tandis que son interface et ses outils de création deviennent plus modernes
-                 </p>   
-                </article>
-            </section>
+          <article class="resumer-article">
+            <h2>Resumer</h2>
+            <p>
+              La période 2018-2022 marque une transformation profonde de Roblox,
+              tant sur le plan technique que culturel. À partir de 2018, la
+              plateforme consolide sa popularité grâce à l'essor de jeux
+              emblématiques comme Adopt Me! ou Jailbreak, tandis que son
+              interface et ses outils de création deviennent plus modernes
+            </p>
+          </article>
+          <section class="amelioration-section">
+              <article class="amelioration-article">
+            <h2>Améliorations techniques</h2>
+            <p>
+                En 2018, Roblox Studio reçoit plusieurs mises à jour importantes : optimisation du moteur, nouveaux outils de terrain, meilleure gestion des performances et introduction de fonctionnalités facilitant le travail en équipe. Ces améliorations permettent aux développeurs de créer des expériences plus ambitieuses.
+            </p>
+        </article>
+          </section>
         </section>
-    </main>
-</body>
+      </main>
+    </div>
+  </body>
 </html>
