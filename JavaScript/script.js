@@ -46,6 +46,8 @@ document.getElementById("4emelien").addEventListener("click", (e) => {
 });
 
 
+
+
 const toggleButton = document.getElementById("toggleButton");
 const liensContainer = document.getElementById("liensContainer");
 
@@ -77,3 +79,4 @@ else if(window.location.pathname.endsWith("RobloxModern.html")){
   alert("Bienvenue dans la section Roblox Moderne !");
 }
 
+// Fin du code bonus
