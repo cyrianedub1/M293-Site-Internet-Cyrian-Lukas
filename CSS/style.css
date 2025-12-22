@@ -46,7 +46,10 @@ body {
   background-color: #f4f4f4;
 }
 
-
+.logo-roblox-actu {
+  width: 100px;
+  height: auto;
+}
 
 
 .ouvrirnoob {
@@ -432,13 +435,14 @@ footer {
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1.3rem;
   max-width: 900px;
   margin: auto;
   border-radius: 20px;
   box-shadow: 0 0 10px #70ffff, 0 0 20px #000000;
 }
 
+/*Au début cette classe causait des problème mais enfaite c'était juste le gap qui était beaucoup trop grand donc je l'ai mis a 1.3 rem   -Cyrian */
 
 .section-dynabout,
 .section-dynafacts {
@@ -474,7 +478,6 @@ footer {
   height: 2px;
   background: #4a3aff;
   opacity: 0.3;
-  margin-bottom: 1rem;
 }
 
 
@@ -518,7 +521,8 @@ footer {
 }
 
 
-
+/*Je n'aimais pas le style de la page donc j'avais décider de tout refaire mais 90% du style viens juste de moi qui essaye des truc mais au final ça rend biens et j'ai appris */
+/*Quelque trucs sympas  - Cyrian*/
 
 
 /*Fin Dynablocks*/
@@ -667,13 +671,71 @@ footer {
 }
 
 .resumer-article,
-.amelioration-article {
+.amelioration-article,
+.devEx,
+.Egghunt-2018 {
   margin-bottom: 40px;
   border-bottom: 1px solid #d0d0d0;
   padding-bottom: 20px;
 }
 
+.devEx {
+  border-left: 4px solid #0078d7;
+  padding-left: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
 
 
+.devEx h2 {
+  font-size: 20px;
+  color: #0078d7;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  font-size: 30px;
+}
+
+.devEx p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.Egghunt-2018 {
+  border-left: 4px solid #0078d7;
+  padding-left: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.Egghunt-2018 h2 {
+  font-size: 20px;
+  color: #0078d7;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  font-size: 30px;
+}
+
+.Egghunt-2018 p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.resumer-article:hover,
+.amelioration-article:hover,
+.devEx:hover,
+.Egghunt-2018:hover {
+  background-color: #e6f0ff;
+  box-shadow: 0 0 12px rgba(0, 120, 215, 0.3);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+
+/*Je pense que cette page aurait pu être finis avec beaucoup moins de ligne mais j'ai surtout jouer sur la safety de la page car j'avais changer tellement de classe au début que c'était presque impossible de faire quelque chose */
+/*Mais au final elle rend plutot bien dans le style que j'ai voulu  -Cyrian*/
 
 /* fin roblox moderne */
