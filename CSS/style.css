@@ -734,3 +734,106 @@ footer {
 /*Mais au final elle rend plutot bien dans le style que j'ai voulu  -Cyrian*/
 
 /* fin roblox moderne */
+
+
+
+.roblox2k23 {
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+}
+
+
+
+.h1-parent-2k23 {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.logo-2k23 {
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+.h1-index-2k23 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+.h1-subtitle-2k23 {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+
+
+.roblox2k23-main {
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  padding: 0 20px 20px 20px;
+}
+
+
+.section-2k23 {
+  background: #ffffff;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.article-2k23 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.h2-2k23 {
+  margin: 0;
+  font-size: 1.7rem;
+}
+
+.p-2k23 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+
+.liste-2k23 {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.liste-2k23-item {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+
+.img-2k23 {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+
+.footer-2k23 {
+  text-align: center;
+  padding: 15px 10px;
+  background: #111;
+  color: #f2f2f2;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.footer-2k23-strong-1,
+.footer-2k23-strong-2 {
+  font-weight: bold;
+}
