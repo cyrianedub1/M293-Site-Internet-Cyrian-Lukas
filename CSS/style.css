@@ -738,11 +738,11 @@ footer {
 
 
 .roblox2k23 {
-  margin: 0;
-  padding: 0;
   background: #f4f4f4;
-  font-family: Arial, Helvetica, sans-serif;
   color: #111;
+  background-image: url(/IMG_VID/hero-image.webp);
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 
 
@@ -788,6 +788,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  border-radius: 0.8rem;
 }
 
 .h2-2k23 {
@@ -828,7 +829,7 @@ footer {
   text-align: center;
   padding: 15px 10px;
   background: #111;
-  color: #f2f2f2;
+  color: #ffffff;
   font-size: 0.9rem;
   margin-top: 20px;
 }
@@ -837,3 +838,66 @@ footer {
 .footer-2k23-strong-2 {
   font-weight: bold;
 }
+
+.roblox2k23 {
+  background-color: #F2F2F2;
+  color: #1C1C1C;
+}
+
+.section-2k23 {
+  background-color: #080606;
+  border: 1px solid #CCCCCC;
+}
+
+.h1-index-2k23 {
+  color: #E2231A;
+}
+
+.h1-subtitle-2k23,
+.p-2k23,
+.liste-2k23-item {
+  color: #fffafa;
+}
+
+.footer-2k23 {
+  background-color: #1C1C1C;
+  color: #F2F2F2;
+}
+
+.h1-index-2k23:hover {
+  color: #FF443A;
+  transition: color 0.3s ease;
+}
+
+.h1-subtitle-2k23:hover {
+  color: #AAAAAA;
+  transition: color 0.3s ease;
+}
+
+.section-2k23:hover, .article-2k23:hover {
+  background-color: #242424;
+  box-shadow: 0 4px 16px rgba(255, 68, 58, 0.3);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+
+
+.liste-2k23-item:hover {
+  color: #FF443A;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.img-2k23:hover {
+  transform: scale(1.03);
+  box-shadow: 0 2px 16px rgba(255, 68, 58, 0.4);
+  transition: all 0.3s ease;
+}
+
+
+
+
+
+
+/*Fin roblox actuel */
