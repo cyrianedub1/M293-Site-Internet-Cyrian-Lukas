@@ -46,6 +46,12 @@ body {
   background-color: #f4f4f4;
 }
 
+.logoindex{
+  margin-top: 10px;
+  height: 150px;
+  border: 0px black solid;
+  border-radius: 5%;
+}
 
 .ouvrirnoob {
   display: none;
