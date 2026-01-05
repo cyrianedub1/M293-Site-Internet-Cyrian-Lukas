@@ -62,26 +62,26 @@ toggleButton.addEventListener("click", function () {
 
 /*Fin*/
 
-// Code bonus à voir si on le garde ou pas 
-//Le code en bas permet d'afficher une alerte de bienvenue en fonction de la page actuelle
+// // Code bonus à voir si on le garde ou pas 
+// //Le code en bas permet d'afficher une alerte de bienvenue en fonction de la page actuelle
 
 
-// Si la page actuelle est "index.html" et cela se repète pour chaque page car on utilise else if pour chaque page
-if (window.location.pathname.endsWith("index.html")) {
-  // Affiche une alerte de bienvenue
-  alert("Bienvenue sur le site sur l'Histoire de Roblox !");
-}
-//si le nom du chemin de la page fini par "dynablock.html" alors une alerte se lance 
-else if(window.location.pathname.endsWith("dynablock.html")){
-  alert("Bienvenue dans la section Dynablock !");
-}
-//si le nom du chemin de la page fini par "Roblox2006-20l7.html" alors une alerte se lance 
-else if(window.location.pathname.endsWith("Roblox2006-2017.html")){
-  alert("Bienvenue dans la section Roblox 2006-2017 !");
-}
-//si le nom du chemin de la page fini par "RobloxModern.html" alors une alerte se lance 
-else if(window.location.pathname.endsWith("RobloxModern.html")){
-  alert("Bienvenue dans la section Roblox Moderne !");
-}
+// // Si la page actuelle est "index.html" et cela se repète pour chaque page car on utilise else if pour chaque page
+// if (window.location.pathname.endsWith("index.html")) {
+//   // Affiche une alerte de bienvenue
+//   alert("Bienvenue sur le site sur l'Histoire de Roblox !");
+// }
+// //si le nom du chemin de la page fini par "dynablock.html" alors une alerte se lance 
+// else if(window.location.pathname.endsWith("dynablock.html")){
+//   alert("Bienvenue dans la section Dynablock !");
+// }
+// //si le nom du chemin de la page fini par "Roblox2006-20l7.html" alors une alerte se lance 
+// else if(window.location.pathname.endsWith("Roblox2006-2017.html")){
+//   alert("Bienvenue dans la section Roblox 2006-2017 !");
+// }
+// //si le nom du chemin de la page fini par "RobloxModern.html" alors une alerte se lance 
+// else if(window.location.pathname.endsWith("RobloxModern.html")){
+//   alert("Bienvenue dans la section Roblox Moderne !");
+// }
 
-// Fin du code bonus
+// // Fin du code bonus
