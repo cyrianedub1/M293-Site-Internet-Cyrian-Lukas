@@ -1,5 +1,5 @@
 /*Script qui permet de faire un sons lorsque l'ont clique sur l'un des liens*/
-
+// javascript
 /*Création de fonctions */
 function buoap() {
   let buoap = new Audio(); //Création d'une nouvelle variable
